@@ -9,18 +9,18 @@ A web app that syncs your Overcast listening history to automatically create a p
 3. Find your login cookie and copy the value for `o`
    1. e.g. in Chrome under `Application` > `Cookies` > `https://overcast.fm`
 
-4. [Add your action repository secret](https://github.com/hbmartin/overcast-to-pages/settings/secrets/actions/new)
+4. [Add your action repository secret](https://github.com/hbmartin-test/top/settings/secrets/actions/new)
    1. Enter Name: `OVERCAST_COOKIE` and Secret: paste the `o` value from step #3
    2. Click the green button `Add secret`
 
-5. Go to [Pages Settings](https://github.com/hbmartin/overcast-to-pages/settings/pages) > `Source` (dropdown) > Choose `GitHub Actions`
-6. Start your first [scrape run](https://github.com/hbmartin/overcast-to-pages/actions/workflows/scrape.yml) > `Run workflow` (gray button) > `Run workflow` (popup green button)
+5. Go to [Pages Settings](https://github.com/hbmartin-test/top/settings/pages) > `Source` (dropdown) > Choose `GitHub Actions`
+6. Start your first [scrape run](https://github.com/hbmartin-test/top/actions/workflows/scrape.yml) > `Run workflow` (gray button) > `Run workflow` (popup green button)
 
-After the `scrape` and `pages` workflow runs successfully complete ([watch them here](https://github.com/hbmartin/overcast-to-pages/actions)), your episodes page will be at [https://hbmartin.github.io/overcast-to-pages/](https://hbmartin.github.io/overcast-to-pages/)
+After the `scrape` and `pages` workflow runs successfully complete ([watch them here](https://github.com/hbmartin-test/top/actions)), your episodes page will be at [https://hbmartin-test.github.io/top/](https://hbmartin-test.github.io/top/)
 
 Hooray! 🎉 Your episodes page will now continue to update daily.
 
-You can also [interact with your podcast database directly using datasette](https://lite.datasette.io/?install=datasette-mp3-audio&url=https://hbmartin.github.io/overcast-to-pages/overcast.db#/overcast/)
+You can also [interact with your podcast database directly using datasette](https://lite.datasette.io/?install=datasette-mp3-audio&url=https://hbmartin-test.github.io/top/overcast.db#/overcast/)
 
 Please report issues or feature requests [here](https://github.com/hbmartin/overcast-to-pages-template/issues)
 
